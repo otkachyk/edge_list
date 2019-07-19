@@ -31,6 +31,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'rack-cors'
 gem 'rack-attack'
 
+gem 'haml'                        # template engine for html
+gem 'rubocop', require: false     # static code analyzer and code formatter
+
 gem 'active_model_serializers'
 
 group :development, :test do
