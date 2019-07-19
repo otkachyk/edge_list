@@ -29,7 +29,6 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
-gem 'rack-attack'
 
 gem 'haml'                        # template engine for html
 gem 'rubocop', require: false     # static code analyzer and code formatter
